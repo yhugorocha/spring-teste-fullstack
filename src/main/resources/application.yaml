@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: infrastructure
+  flayway:
+    anable: true
+    baseline-on-migrate: false
+    locations: classpath:db/migration
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/bd_testefullstack
+    username: postgres
+    password: postgres
+
+
