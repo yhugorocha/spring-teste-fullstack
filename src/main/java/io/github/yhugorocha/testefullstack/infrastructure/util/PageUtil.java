@@ -1,4 +1,4 @@
-package io.github.yhugorocha.testefullstack.infrastructure.Util;
+package io.github.yhugorocha.testefullstack.infrastructure.util;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

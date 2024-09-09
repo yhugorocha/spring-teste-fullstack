@@ -1,6 +1,6 @@
 package io.github.yhugorocha.testefullstack.infrastructure.config;
 
-import io.github.yhugorocha.testefullstack.infrastructure.Util.PageUtil;
+import io.github.yhugorocha.testefullstack.infrastructure.util.PageUtil;
 import io.github.yhugorocha.testefullstack.infrastructure.mapper.FichaVeiculoMapper;
 import io.github.yhugorocha.testefullstack.infrastructure.repository.FichaVeiculoRepository;
 import io.github.yhugorocha.testefullstack.infrastructure.service.FichaVeiculoGatewayImpl;

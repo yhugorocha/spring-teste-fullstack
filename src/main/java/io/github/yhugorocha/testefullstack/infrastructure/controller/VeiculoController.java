@@ -2,7 +2,7 @@ package io.github.yhugorocha.testefullstack.infrastructure.controller;
 
 import io.github.yhugorocha.testefullstack.application.gateway.FichaVeiculoGateway;
 import io.github.yhugorocha.testefullstack.core.domain.FichaVeiculo;
-import io.github.yhugorocha.testefullstack.infrastructure.Util.PageUtil;
+import io.github.yhugorocha.testefullstack.infrastructure.util.PageUtil;
 import io.github.yhugorocha.testefullstack.infrastructure.dto.FichaVeiculoRequestDTO;
 import io.github.yhugorocha.testefullstack.infrastructure.dto.FichaVeiculoResponseDTO;
 import io.github.yhugorocha.testefullstack.infrastructure.mapper.FichaVeiculoMapper;
