@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.UUID;
 
-public class Veiculo {
+public class FichaVeiculo {
 
     private UUID id;
     private String veiculo;
@@ -20,7 +20,7 @@ public class Veiculo {
     private String chassi;
     private BigDecimal preco;
 
-    public Veiculo(UUID id, String veiculo, String marca, Integer ano, String descricao, Boolean vendido, LocalDateTime created, LocalDateTime update, String chassi, BigDecimal preco) {
+    public FichaVeiculo(UUID id, String veiculo, String marca, Integer ano, String descricao, Boolean vendido, LocalDateTime created, LocalDateTime update, String chassi, BigDecimal preco) {
         this.id = id;
         this.veiculo = veiculo;
         this.marca = marca;
@@ -33,7 +33,7 @@ public class Veiculo {
         this.setPreco(preco);
     }
 
-    public Veiculo(String veiculo, String marca, Integer ano, String descricao, Boolean vendido, String chassi, BigDecimal preco) {
+    public FichaVeiculo(String veiculo, String marca, Integer ano, String descricao, Boolean vendido, String chassi, BigDecimal preco) {
         this.veiculo = veiculo;
         this.marca = marca;
         this.setAno(ano);
@@ -44,7 +44,7 @@ public class Veiculo {
         this.setPreco(preco);
     }
 
-    public Veiculo() {
+    public FichaVeiculo() {
 
     }
 
