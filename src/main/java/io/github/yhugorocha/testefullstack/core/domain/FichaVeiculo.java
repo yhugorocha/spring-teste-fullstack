@@ -128,7 +128,7 @@ public class FichaVeiculo {
     }
 
     public void setPreco(BigDecimal preco) {
-        if(preco.intValue() < 0){
+        if(preco.doubleValue() < 0){
             throw new BusinessException("O Preço do veiculo não pode ser inferior a 0!");
         }
         this.preco = preco;
